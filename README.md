@@ -1,10 +1,10 @@
-#House Price Prediction with Neural Networks
+#House Price Prediction with Neural Networks:
 This project predicts house prices using a neural network built with PyTorch and tracked with MLflow.
 
-#Overview
+#Overview:
 The model predicts house prices based on input features. The dataset contains 21 features and 21,613 samples (shape = (21613, 21)). We evaluate the model using loss, Mean Squared Error (MSE), and R² score.
 
-#Steps
+#Steps:
 -EDA & Preprocessing
   Explore data, handle missing values, scale features, and split into training/testing sets.
 -Model Architecture
@@ -16,16 +16,16 @@ The model predicts house prices based on input features. The dataset contains 21
   Metrics logged with MLflow
 
 
-#Results
+#Results:
 Loss and MSE decrease over iterations
 R² ≈ 0.8 on test set
 Good predictive performance achieved
 
-#Visualization
+#Visualization:
 Plots for training/test loss, R², and MSE are saved as house_price.png
 
-#MLflow Integration
+#MLflow Integration:
 artifact,  metrics, and model are logged for experiment tracking
 
-Requirements
+Requirements:
 Python 3.x, PyTorch, MLflow, matplotlib, scikit-learn, tqdm
